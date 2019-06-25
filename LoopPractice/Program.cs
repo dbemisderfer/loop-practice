@@ -92,7 +92,7 @@ namespace LoopPractice
                 if(int.TryParse(input, out currentNumber) && currentNumber > 0 && currentNumber < 21)
                 {
                     total += currentNumber;
-                    count++;
+                    //count++;
                 }
                 else
                 {
@@ -104,6 +104,7 @@ namespace LoopPractice
                     }
                     continue;
                 }
+                count++;
                 //Console.WriteLine();
                 //Console.WriteLine("THIS WILL ONLY PRINT WHEN A CORRECT VALUE IS ENTERED");
                 //Console.WriteLine();
